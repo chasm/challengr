@@ -33,4 +33,4 @@ main.container
 
 footer
   .container
-    p.text-muted Place sticky footer content here.
+    p.text-muted &copy; 2014 DaVinci CMS.
