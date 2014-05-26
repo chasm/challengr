@@ -1,1 +1,11 @@
-p Hi, I'm the home page!
+table.table.table-striped.table-bordered
+  caption Categories
+  thead
+    tr
+      th ID
+      th Name
+  tbody
+    each
+      tr
+        td = id
+        td = name
