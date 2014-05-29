@@ -13,13 +13,15 @@ startApp = (attrs) ->
   Router.reopen
     location: 'none'
 
+  app = null
+
   Ember.run ->
-    App = Application.create(attributes)
-    App.setupForTesting()
-    App.injectTestHelpers()
+    app = Application.create(attributes)
+    app.setupForTesting()
+    app.injectTestHelpers()
 
-  App.reset()
+  app.reset()
 
-  App
+  app
 
 `export default startApp`
